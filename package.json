@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-frontend-user",
+  "version": "1.0.0",
+  "description": "Primer Porfatolio",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch assets/sass/main.scss:assets/css/main.css"
+  },
+  "author": "Valentina Muñoz",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
