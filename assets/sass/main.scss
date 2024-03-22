@@ -3,22 +3,23 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-// Base,s
+// Vendors
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Bases
 @import "base/reset";
 @import "base/typography";
-
-// Components
-@import "components/logos";
 
 // Layout
 @import "layout/body";
 @import "layout/main";
+
+// Components
+@import "components/logos";
+
 
 // Pages
 @import "pages/home";
 
 // Themes
 @import "themes/theme";
-
-// Vendors
-@import "../../node_modules/bootstrap/scss/bootstrap";
